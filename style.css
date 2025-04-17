@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    height: 250px;
+    width: 285px;
+    flex-wrap: wrap;
+}
+
+.divBox{
+    border-color: black;
+    border-style: solid;
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+}
