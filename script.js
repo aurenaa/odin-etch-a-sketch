@@ -11,8 +11,8 @@ function createGrid(n){
         
         divBox.classList.add("divBox");
 
-        divBox.addEventListener('mouseover', function() {
-            divBox.style.backgroundColor = "grey";
+        divBox.addEventListener("mouseover", () => {
+            divBox.style.backgroundColor = "black";
         });
 
         containerEl.appendChild(divBox);
@@ -36,4 +36,3 @@ newGridButton.addEventListener("click", () => {
         alert("Invalid size.");
     }
 });
-
