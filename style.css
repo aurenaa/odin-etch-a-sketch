@@ -58,7 +58,7 @@ body{
 .divBox{
     padding-top: 0px;
     border: 1px solid black;
-    background-color: grey;
+    background-color: rgb(197, 197, 197);
     width: 30px;
     height: 30px;
 }
