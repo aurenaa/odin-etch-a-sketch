@@ -1,4 +1,5 @@
-containerEl = document.querySelector(".container");
+const containerEl = document.querySelector(".container");
+const button = document.getElementById("resetButton");
 
 //16x16 grid
 function createInitialGrid(){
@@ -11,7 +12,12 @@ function createInitialGrid(){
         });
 
         containerEl.appendChild(divBox);
+
+        button.addEventListener("click", () => {
+            divBox.style.backgroundColor = "rgb(197, 197, 197)";
+        });
     }
 }
+
 
 createInitialGrid();
